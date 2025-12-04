@@ -1,53 +1,85 @@
-# 📚 Exercícios JAVA
+# Java Core - Exercícios de Programação
 
-Repositório dedicado aos meus estudos e prática da linguagem Java.
+Este repositório contém uma coleção de exercícios práticos de Java focados em conceitos fundamentais e intermediários da linguagem.
+
+## 📚 Conteúdo
+
+Os exercícios estão organizados em 10 níveis progressivos, cobrindo os seguintes tópicos:
+
+### Nível 1 - Fundamentos da POO
+- Princípios básicos da Programação Orientada a Objetos
+- Herança
+- Encapsulamento
+
+### Nível 2 - POO Avançada
+- Sobrecarga de métodos
+- Polimorfismo
+- Abstração
+- Interfaces
+
+### Nível 3 - Interfaces e Herança Múltipla
+- Comparação entre interfaces e classes abstratas
+- Implementação de múltiplas interfaces
+- Herança múltipla em Java
+
+### Nível 4 - Type Casting
+- Conversão de tipos
+- Operador `instanceof`
+- Tarefas práticas envolvendo interfaces
+
+### Nível 5 - Sobrecarga e Construtores
+- Sobrecarga de métodos
+- Características das chamadas de construtores
+- Encadeamento de construtores
+
+### Nível 6 - Introdução a Threads (Parte 1)
+- Classe `Thread`
+- Interface `Runnable`
+- Métodos: `start()`, `join()`, `interrupt()`, `sleep()`
+
+### Nível 7 - Introdução a Threads (Parte 2)
+- Sincronização com `synchronized`
+- Palavra-chave `volatile`
+- Método `yield()`
+
+### Nível 8 - Streams de I/O (Parte 1)
+- `InputStream` e `OutputStream`
+- `FileInputStream` e `FileOutputStream`
+- Manipulação de arquivos binários
+
+### Nível 9 - Streams de I/O (Parte 2)
+- `Reader` e `Writer`
+- `FileReader` e `FileWriter`
+- Manipulação de arquivos de texto
+
+### Nível 10 - Serialização
+- Conceitos de serialização
+- Interface `Serializable`
+- Persistência de objetos
 
 ## 🎯 Objetivo
 
-Este repositório documenta minha jornada de aprendizado em Java, desde os conceitos básicos até tópicos mais avançados.
-Aqui você encontrará exercícios práticos, exemplos de código e anotações sobre cada tópico estudado.
+Este repositório serve como registro do meu progresso no aprendizado de Java, documentando soluções para diversos desafios de programação que cobrem desde conceitos básicos de OOP até tópicos mais avançados como threads, streams e serialização.
 
-## 📖 Conteúdo Estudado
+## 🚀 Como Usar
 
-### ✅ Sintaxe Java
+Cada nível contém múltiplos exercícios organizados em diretórios próprios. Navegue pelos diretórios para encontrar os exercícios específicos e suas soluções.
 
-Estudo e prática que abrange 16 níveis sobre os fundamentos da linguagem Java:
+## 📝 Observações
 
-- **Nível 1:** Comandos e primeiro programa
-- **Nível 2:** Tipos de dados e entrada pelo teclado
-- **Nível 3:** Instrução `if` (condicional)
-- **Nível 4:** Loops (estruturas de repetição)
-- **Nível 5:** IntelliJ IDEA, JDK e plugins
-- **Nível 6:** Arrays (vetores)
-- **Nível 7:** Métodos
-- **Nível 8:** Tipos de dados avançados
-- **Nível 9:** Trabalhando com Strings
-- **Nível 10:** Objetos
-- **Nível 11:** Classes
-- **Nível 12:** Conversão de tipos (Type casting)
-- **Nível 13:** Collections e Generics
-- **Nível 14:** Collections - Parte 2
-- **Nível 15:** Exceções (Exceptions)
-- **Nível 16:** Ciclo de vida de objetos
+- Os exercícios seguem uma progressão de dificuldade
+- Cada solução inclui comentários explicativos quando necessário
+- Recomenda-se completar os níveis em ordem sequencial
 
-### 🔧 Habilidades Desenvolvidas
+## 🛠️ Requisitos
 
-- Compreensão da sintaxe básica do Java
-- Manipulação de variáveis e tipos de dados
-- Estruturas condicionais e de repetição
-- Criação e uso de métodos
-- Trabalho com arrays e collections
-- Conceitos básicos de Programação Orientada a Objetos (POO)
-- Tratamento de exceções
-- Desenvolvimento no IntelliJ IDEA
+- Java JDK 8 ou superior
+- IDE de sua preferência (IntelliJ IDEA, Eclipse, VS Code, etc.)
 
-## 🛠️ Ferramentas Utilizadas
+## 📄 Licença
 
-- **IDE:** IntelliJ IDEA
-- **JDK:** Java Development Kit
+Este projeto é de código aberto e está disponível para fins educacionais.
 
-Sinta-se livre para explorar, clonar e usar este repositório como referência para seus próprios estudos!
+---
 
-⭐ Se este repositório foi útil para você, considere deixar uma estrela!
-
-**Status:** 🔄 Em constante atualização
+**Status atual:** 🔄 Nível 1 - Fundamentos da POO em progresso
