@@ -1,5 +1,5 @@
 # 🎯 Nível 3 - Interfaces e Herança Múltipla
----
+
 ## 🔍 Comparação entre Interfaces e Classes Abstratas
 
 ### Quando usar cada uma?
