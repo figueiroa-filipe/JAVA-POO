@@ -49,6 +49,21 @@ public class Solution {
         @Override
         public void run() {
             //write your code here
+            int interval = 1000/rating;
+            try {
+                for (String s : OnlineGame.actions){
+                    System.out.println(getName() + ":" + s);
+                    Thread.sleep(interval);
+                }
+            } catch (InterruptedException e) {
+                System.out.println(getName() + ":lost");
+            }
+
+            if (!OnlineGame.isWinnerFound) {
+                OnlineGame.isWinnerFound = true;
+                System.out.println(getName() + ":won!");
+            }
+
         }
     }
 }
