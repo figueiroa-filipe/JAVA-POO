@@ -82,4 +82,4 @@ Este projeto é de código aberto e está disponível para fins educacionais.
 
 ---
 
-**Status atual:** 🔄 Nível 1 - Fundamentos da POO em progresso
+**Status atual:** 🔄 Nível 8 - Streams de I/O (Parte 1)
