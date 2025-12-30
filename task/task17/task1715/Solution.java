@@ -25,12 +25,28 @@ public class Solution {
         isStopped = true;
     }
 
-    public static class Pharmacy {
+    public static class Pharmacy implements Runnable {
 
+        @Override
+        public void run() {
+            while (!isStopped) {
+                drugController.sell(getRandomDrug(), getRandomCount());
+                waitAMoment();
+                waitAMoment();
+                waitAMoment();
+            }
+        }
     }
 
-    public static class Person {
+    public static class Person implements Runnable {
 
+        @Override
+        public void run() {
+            while (!isStopped) {
+                drugController.buy(getRandomDrug(), getRandomCount());
+                waitAMoment();
+            }
+        }
     }
 
     public static int getRandomCount() {

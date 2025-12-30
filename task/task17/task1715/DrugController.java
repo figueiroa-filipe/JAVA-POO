@@ -20,7 +20,7 @@ public class DrugController {
         allDrugs.put(placebo, 1);
     }
 
-    public void buy(Drug drug, int count) {
+    public synchronized void buy(Drug drug, int count) {
         String name = Thread.currentThread().getName();
         if (!allDrugs.containsKey(drug)) {
             System.out.println("Out of stock");
@@ -34,7 +34,7 @@ public class DrugController {
         }
     }
 
-    public void sell(Drug drug, int count) {
+    public synchronized void sell(Drug drug, int count) {
         System.out.println(Thread.currentThread().getName() + " purchased: " + count + " " + drug.getName());
         if (!allDrugs.containsKey(drug)) {
             allDrugs.put(drug, 0);
